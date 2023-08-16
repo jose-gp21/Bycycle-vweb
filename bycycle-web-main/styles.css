@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Adicionado para melhorar o controle de elementos */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Estilos gerais */
+body {
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), black); /* Cor de fundo geral */
+}
+
+/* Estilos para o cabeçalho (logo, título e ícones sociais) 
+
+    position: relative;
+    height: 100vh;
+    background: black url("../pacote-d013/imagens/fundo-madeira.jpg") center center/cover no-repeat fixed
+
+*/
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #CBFFF2; 
+  box-shadow: #000000 2px 2px 2px 2px;/* Cor de fundo do cabeçalho */
+}
+
+.logo {
+  max-width: 70px;
+  max-height: 70px;
+  height: auto;
+  margin-right: 20px; /* Espaçamento entre a logo e a barra de navegação */
+}
+.textlogo{
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: -20px;
+}
+
+.gedgets {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 25px;
+  margin-left: 17px;
+}
+
+/* Estilos para a barra de navegação */
+ul.navbar {
+  list-style-type: none;
+  margin-right: 250px;
+  margin-left: 300px;
+
+  padding: 0;
+  background-color: #CBFFF2; /* Cor de fundo da barra de navegação */
+  overflow: hidden;
+  display: flex; /* Exibe os itens em linha */
+}
+
+li.navitem {
+  margin: 0;
+}
+
+li.navitem a {
+  display: block;
+  color: black; /* Cor do texto */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.navitem a:hover {
+  background-color: #555;
+  color: white; /* Cor do texto ao passar o mouse */
+}
+
+main{
+  position: absolute;
+  width: 100%;
+  background: black url("image/back.jpg") center center/cover no-repeat fixed
+}
+
+.home{
+  width: 100%;
+  text-align: center;
+}
+
+.photo-container {
+  display: flex;
+  width: 100%; /* Ocupa a largura total da tela */
+  overflow-x: auto; /* Adiciona uma barra de rolagem horizontal se o conteúdo ultrapassar a largura da tela */
+}
+
+/* Estilos para cada foto */
+.photo {
+  flex: 1; /* Cada foto ocupa a mesma largura */
+  padding: 10px; /* Espaçamento entre as fotos */
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Adiciona uma borda arredondada às fotos */
+}
+
+/* Estilos para a div de overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1); /* Fundo semi-transparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+/* Estilos para a div de coluna de fotos */
+.photo-column {
+  width: 50%;
+}
+
+/* Estilos para o logotipo da Play Store */
+.logo-playstore {
+  max-width: 200px;
+  margin: 20px;
+  margin-top: -70px;
+  margin-left: 20px; /* Espaçamento entre os logotipos */
+}
+/* Estilos para a logo */
+.logo-bycycle {
+  max-width: 300px;
+  margin: 20px;
+  margin-top: -60px;
+  margin-right: 80px;
+/* Adiciona espaço acima e abaixo da logo */
+}
+/* Estilos para o conteúdo centralizado */
+.centered-content {
+  background-image: url("image/back-center.jpg");
+  background-position: center center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-top: 300px;
+  width: 800px;
+  height: 300px;
+  background-color: #413939;
+  padding: 20px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#textobranco {
+  color: #000000;
+  padding: 10px;
+}
+
+p {
+  text-indent: 20px;
+  margin: 20px;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.section {
+  margin-left: 30px;
+}
+
+#fundobranco {
+  border-radius: 20px;
+  background-color: #ffffff;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  padding: 5px;
+}
+.iframe{
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  margin: 40px;
+}
